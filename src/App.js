@@ -30,7 +30,7 @@ function StatsBar({ tasks }) {
   return (
     <div className="stats-bar">
       <div className="stats-numbers">
-        <span className="stat"><strong>{total}</strong> Final Value</span>
+        <span className="stat"><strong>{total}</strong> Final</span>
         <span className="stat done-stat"><strong>{done}</strong> done</span>
         <span className="stat"><strong>{remaining}</strong> remaining</span>
         <span className="stat pct-stat"><strong>{pct}%</strong> complete</span>
